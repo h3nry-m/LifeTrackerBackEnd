@@ -65,6 +65,7 @@ class Food {
         food.quantity,
         food.calories,
         user.id,
+        // food.imageUrl,
       ]
     );
     return results.rows[0];

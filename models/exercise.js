@@ -76,6 +76,7 @@ class Exercise {
       INSERT INTO exercise (exerciseName, category, duration, intensity, user_id)
       VALUES ($1, $2, $3, $4, $5)
       RETURNING id,
+                exerciseName,
                 category,
                 duration,
                 intensity,
